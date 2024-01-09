@@ -1,67 +1,233 @@
+body {
+    margin: 0px;
+    padding: 10px;
+}
 
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 1em;
-            text-align: center;
-        }
-        nav {
-            background-color: #666;
-            color: #fff;
-            padding: 1em;
-            text-align: center;
-        }
+.menu-container {
+    background-color: #666699;
+    color: aliceblue;
+}
 
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            padding: 1em;
-            margin: 0 1em;
-        }
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
 
-        section {
-            padding: 2em;
-        }
+.menu li {
+    padding: 10px;
+}
 
-        img {
-            width: 100%; 
-            height: auto; 
-            display: block; 
-            margin: auto; 
+.menu a {
+    text-decoration: none;
+    color: white;
+}
 
-        }
-          .left-half {
-            position: absolute;
-            left: 0px;
-            width: 50%;
-          }
-          .right-half {
-            position: absolute;
-            right: 0px;
-            width: 50%;
-          }
+span {
+    content: "\1F4DE";
+    content: "\2709";
+}
 
+div.mycontainer {
+    width: 100%;
+    overflow: auto;
+    margin: 20px;
+}
 
-          
+div.mycontainer div {
+    width: 50%;
+    float: left;
+}
 
 
 
+div.mycontainer1 {
+    width: 100%;
+    background-color: #2980b9;
+    margin: 20px;
+    overflow: auto;
+
+
+}
+
+div.mycontainer1 div {
+    width: 50%;
+    float: left;
+    justify-content: center;
+
+}
+
+
+.listout li {
+    float: left;
+    list-style: none;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+div.right {
+    text-align: center;
+}
+
+.mycontainer1.box {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db;
+    border: 2px solid #2980b9;
+
+}
+
+.box {
+    background-color: #3498db;
+    border: 2px solid #2980b9;
+
+}
+
+.four-columns {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: blue;
+    float: left;
+    margin: 10px;
+
+}
+
+.four-columns.h1 {
+    margin: 10px;
+
+}
+
+.column {
+    width: 15%;
+    height: 15%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    background-color: white;
+    float: left;
+}
+
+.button {
+
+
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    width: 250px;
+    padding: 25px;
+
+}
+
+.messageSection {
+    width: 100%;
+    overflow: auto;
+    width: 50%;
+
+
+}
+
+.gallery {
+    color: #2980b9;
+    margin: 10px;
+}
+
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 5px;
+    /* Optional: Add gap between images */
+}
 
 
 
+.background-section {
+    background-color: blue;
+    padding: 50px;
+    float: left;
+    margin: 20px;
+    width: 100%;
 
 
+}
 
-
-
-        
-
-
-
+.subsection {
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 250px;
+    border: #dddddd;
+    border-radius: 8px;
+    float: left;
+    margin: 50px;
     
+
+}
+
+footer {
+    background-color: white;
+    color: black;
+    padding: 50px;
+    float: left;
+    margin: 20px;
+    width: 100%;
+}
+
+.footer-section {
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 250px;
+    border: #dddddd;
+    border-radius: 8px;
+    float: left;
+    margin: 50px;
+
+}
+
+.footer-section h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* .footer-section p {
+    font-size: 0.9em;
+    line-height: 1.4;
+} */
+
+.address {
+    list-style-type: none;
+
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    margin: 0;
+    
+}
+
+.social-icons a {
+    text-decoration: none;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
+
+
+.logo {
+    float: left;
+    margin-right: 20px;
+}
+
+.heading {
+    float: left;
+}
